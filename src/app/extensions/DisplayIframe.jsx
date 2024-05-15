@@ -11,8 +11,8 @@ const Extension = ({ openIframe }) => {
   const handleClick = () => {
     openIframe({
       uri: "https://visence-web.loginline.dev/status?application=freshdesk&token=67d04aa2-7796-49be-bd25-a8a7cf6aa243&email=demo@visence.co", // this is a relative link. Some links will be blocked since they don't allow iframing
-      height: 80,
-      width: 80,
+      height: 400,
+      width: 400,
       title: 'test clem',
       flush: true,
     });
