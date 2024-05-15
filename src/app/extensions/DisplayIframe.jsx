@@ -1,5 +1,4 @@
 import { Link, Button, Text, Box, Flex, hubspot } from "@hubspot/ui-extensions";
-import React, { useEffect } from 'react';
 
 
 // Define the extension to be run within the Hubspot CRM
@@ -9,25 +8,15 @@ hubspot.extend((
 
 // Define the Extension component, taking in openIframe as a prop
 const Extension = ({ openIframe }) => {
-  // const handleClick = () => {
-  //   openIframe({
-  //     uri: "https://visence-web.loginline.dev/status?application=freshdesk&token=67d04aa2-7796-49be-bd25-a8a7cf6aa243&email=demo@visence.co", // this is a relative link. Some links will be blocked since they don't allow iframing
-  //     height: 1000,
-  //     width: 1000,
-  //     title: 'Wikipedia in an Iframe',
-  //     flush: true,
-  //   });
-  // };
-  useEffect(() => {
+  const handleClick = () => {
     openIframe({
-      uri: "https://wikipedia.com/", // Adjusted to a full URL; note that some sites may block iframing
+      uri: "https://visence-web.loginline.dev/status?application=freshdesk&token=67d04aa2-7796-49be-bd25-a8a7cf6aa243&email=demo@visence.co", // this is a relative link. Some links will be blocked since they don't allow iframing
       height: 1000,
       width: 1000,
       title: 'Wikipedia in an Iframe',
       flush: true,
     });
-  }, []); // Empty dependency array means this effect runs once on mount
-
+  };
 
   return (
     <>
@@ -41,10 +30,7 @@ const Extension = ({ openIframe }) => {
         </Text>
 
         <Box>
-          <Button
-          // type="submit"
-          // onClick={handleClick}
-          >
+          <Button type="submit" onClick={handleClick}>
             Click me
           </Button>
 
