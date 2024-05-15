@@ -32,6 +32,11 @@ const Extension = ({ openIframe }) => {
           <Button type="submit" onClick={handleClick}>
             Click me
           </Button>
+          <iframe
+          src="https://visence-web.loginline.dev/status?application=freshdesk&token=67d04aa2-7796-49be-bd25-a8a7cf6aa243&email=demo@visence.co"
+          >
+
+          </iframe>
         </Box>
       </Flex>
     </>
