@@ -11,8 +11,8 @@ const Extension = ({ openIframe }) => {
   const handleClick = () => {
     openIframe({
       uri: "https://visence-web.loginline.dev/status?application=freshdesk&token=67d04aa2-7796-49be-bd25-a8a7cf6aa243&email=demo@visence.co", // this is a relative link. Some links will be blocked since they don't allow iframing
-      height: 1000,
-      width: 1000,
+      height: 250,
+      width: 200,
       title: 'test clem',
       flush: true,
     });
@@ -22,7 +22,7 @@ const Extension = ({ openIframe }) => {
     <>
       <Flex direction="column" align="start" gap="medium">
         <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, possimus? Autem exercitationem totam enim minus quos reprehenderit recusandae incidunt ut aliquam dolor cumque, doloremque voluptas sequi dolorum sunt nostrum iure.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, possimus? Autem exercitationem totam enim minus quos reprehenderit recusandae incidunt ut aliquam dolor cumque, doloremque voluptas sequi dolorum.
         </Text>
 
         <Box>
