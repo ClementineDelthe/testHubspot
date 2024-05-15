@@ -1,5 +1,5 @@
 {
-  "name": "Iframe modal example app",
+  "name": "Visence",
   "description": "This is a sample to show how to open a popup iframe modal from a custom card",
   "scopes": [
     "crm.objects.contacts.read",
