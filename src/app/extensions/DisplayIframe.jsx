@@ -22,7 +22,7 @@ const Extension = ({ openIframe }) => {
     <>
       <Flex direction="column" align="start" gap="medium">
         <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, possimus? Autem exercitationem totam enim minus quos reprehenderit recusandae incidunt ut aliquam dolor cumque, doloremque voluptas sequi dolorum.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, possimus? Autem exercitationem totam enim minus.
         </Text>
 
         <Box>
