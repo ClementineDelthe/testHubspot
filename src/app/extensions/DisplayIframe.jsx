@@ -11,8 +11,8 @@ const Extension = ({ openIframe }) => {
   const handleClick = () => {
     openIframe({
       uri: "https://visence-web.loginline.dev/status?application=freshdesk&token=67d04aa2-7796-49be-bd25-a8a7cf6aa243&email=demo@visence.co", // this is a relative link. Some links will be blocked since they don't allow iframing
-      height: 1000,
-      width: 1000,
+      height: 80,
+      width: 80,
       title: 'test clem',
       flush: true,
     });
@@ -22,11 +22,7 @@ const Extension = ({ openIframe }) => {
     <>
       <Flex direction="column" align="start" gap="medium">
         <Text>
-          Clicking the button will open a modal dialog with an iframe that
-          displays the content at the provided URL. Get more info on how to do this {" "}.
-          <Link href="https://developers.hubspot.com/docs/platform/create-ui-extensions#open-an-iframe-in-a-modal">
-            here
-          </Link>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, possimus? Autem exercitationem totam enim minus quos reprehenderit recusandae incidunt ut aliquam dolor cumque, doloremque voluptas sequi dolorum sunt nostrum iure.
         </Text>
 
         <Box>
@@ -34,11 +30,6 @@ const Extension = ({ openIframe }) => {
             Click me
           </Button>
 
-          {/* <iframe
-          src="https://visence-web.loginline.dev/status?application=freshdesk&token=67d04aa2-7796-49be-bd25-a8a7cf6aa243&email=demo@visence.co"
-          >
-
-          </iframe> */}
         </Box>
       </Flex>
     </>
