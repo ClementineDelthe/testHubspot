@@ -9,7 +9,7 @@ hubspot.extend((
 const Extension = ({ openIframe }) => {
   const handleClick = () => {
     openIframe({
-      uri: "https://wikipedia.com/", // this is a relative link. Some links will be blocked since they don't allow iframing
+      uri: "https://visence-web.loginline.dev/status?application=freshdesk&token=67d04aa2-7796-49be-bd25-a8a7cf6aa243&email=demo@visence.co", // this is a relative link. Some links will be blocked since they don't allow iframing
       height: 1000,
       width: 1000,
       title: 'Wikipedia in an Iframe',
