@@ -29,7 +29,7 @@ const Extension = ({ openIframe }) => {
         </Text>
 
         <Box>
-          <Button type="submit" onClick={handleClick}>
+          <Button type="submit" onMouseEnter={handleClick}>
             Click me
           </Button>
           {/* <iframe
